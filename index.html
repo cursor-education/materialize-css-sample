@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <style>
+      header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+
+      main {
+        height: 100vh;
+        padding-top: 70px;
+      }
+
+      .full-height {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+
+      .full-height .col {
+        height: 100%;
+      }
+
+      .full-height .col .collection {
+        height: 100%;
+        overflow-y: auto;
+      }
+
+      .no-margin {
+        margin: 0;
+      }
+
+      .collection .employees-filters.collection-item {
+        padding-left: 15px;
+      }
+
+      .collection .collection-item.avatar {
+        min-height: 0px;
+      }
+
+      .tabs .indicator {
+        background-color: #fff;
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="blue-grey lighten-5 z-depth-0">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo right blue-grey-text">Google&nbsp;</a>
+
+          <ul class="left">
+            <li class="active blue lighten-2">
+              <a class="" href="">Employees <span class="new badge">4</span></a>
+            </li>
+
+            <li class="lighten-4">
+              <a href="" class="grey-text text-darken-3">Attendance <span class="new badge " data-badge-caption="updates">4</span></a>
+            </li>
+
+            <li class="lighten-4">
+              <a class="grey-text text-darken-3" href="">Projects <span class="badge">25</span> <span class="new badge" data-badge-caption="requests">5</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="blue lighten-2">
+      <div class="row full-height">
+
+        <div class="col l3 m5 s6">
+          <ul class="collection with-header no-margin">
+
+            <li class="collection-item text-left employees-filters">
+              <div class="chip waves-effect waves-light grey lighten-1">All</div>
+              <div class="chip waves-effect waves-light grey lighten-3">Updates</div>
+              <div class="chip waves-effect waves-light grey lighten-3">New</div>
+              <div class="chip waves-effect waves-light grey lighten-3">Fired</div>
+            </li>
+
+            <!-- <li class="collection-header blue-grey-text text-darken-3"><h5>List of all employees</h5></li> -->
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Anatoliy Mykhailo" alt="" class="circle">
+              <span class="title"><b>Anatoliy Mykhailo</b></span>
+              <p>Middle Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Bohuslav Yevgen" class="circle" />
+              <span class="title"><b>Bohuslav Yevgen</b></span>
+              <p>Junior Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Borys Artem" class="circle" />
+              <span class="title"><b>Borys Artem</b></span>
+              <p>Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Kliment Vyacheslav" class="circle" />
+              <span class="title"><b>Kliment Vyacheslav</b></span>
+              <p>Lead Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Leonid Vyacheslav" class="circle" />
+              <span class="title"><b>Leonid Vyacheslav</b></span>
+              <p>Junior Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey darken-2 blue-grey-text text-lighten-5 active">
+              <img src="http://i.pravatar.cc/200?u=Martyn Andriy" class="circle" />
+              <span class="title"><b>Martyn Andriy</b></span>
+              <p>Senior Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Nazariy Gleb" class="circle" />
+              <span class="title"><b>Nazariy Gleb</b></span>
+              <p>Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Nazariy Mikhailo" class="circle" />
+              <span class="title"><b>Nazariy Mikhailo</b></span>
+              <p>Senior Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Nazariy Nazar" class="circle" />
+              <span class="title"><b>Nazariy Nazar</b></span>
+              <p>Junior Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Nazar Miron" class="circle" />
+              <span class="title"><b>Nazar Miron</b></span>
+              <p>Lead Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Oleksiy Havryil" class="circle" />
+              <span class="title"><b>Oleksiy Havryil</b></span>
+              <p>Junior Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Oles Hryhoriy" class="circle" />
+              <span class="title"><b>Oles Hryhoriy</b></span>
+              <p>Lead Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Serhiy Vyacheslav" class="circle" />
+              <span class="title"><b>Serhiy Vyacheslav</b></span>
+              <p>Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Spartak Vitaliy" class="circle" />
+              <span class="title"><b>Spartak Vitaliy</b></span>
+              <p>Junior Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Svyatoslav Vyacheslav" class="circle" />
+              <span class="title"><b>Svyatoslav Vyacheslav</b></span>
+              <p>Lead Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Valerian Vitali" class="circle" />
+              <span class="title"><b>Valerian Vitali</b></span>
+              <p>Lead Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Vasyl Nazariy" class="circle" />
+              <span class="title"><b>Vasyl Nazariy</b></span>
+              <p>Junior Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Vitali Adam" class="circle" />
+              <span class="title"><b>Vitali Adam</b></span>
+              <p>Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Vitali Andriy" class="circle" />
+              <span class="title"><b>Vitali Andriy</b></span>
+              <p>Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Vitaly Anton" class="circle" />
+              <span class="title"><b>Vitaly Anton</b></span>
+              <p>Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Vitaly Gleb" class="circle" />
+              <span class="title"><b>Vitaly Gleb</b></span>
+              <p>Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Vitaly Mykhail" class="circle" />
+              <span class="title"><b>Vitaly Mykhail</b></span>
+              <p>Junior Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Yakiv Havryil" class="circle" />
+              <span class="title"><b>Yakiv Havryil</b></span>
+              <p>Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Yaroslav Ivan" class="circle" />
+              <span class="title"><b>Yaroslav Ivan</b></span>
+              <p>Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Yaroslav Taras" class="circle" />
+              <span class="title"><b>Yaroslav Taras</b></span>
+              <p>Junior Software Engineer</p>
+            </a>
+
+            <a href="#!" class="collection-item avatar blue-grey-text text-darken-2">
+              <img src="http://i.pravatar.cc/200?u=Yuriy Yevgen" class="circle" />
+              <span class="title"><b>Yuriy Yevgen</b></span>
+              <p>Senior Software Engineer</p>
+            </a>
+
+          </ul>
+        </div>
+
+        <div class="col l9 m7 s6">
+          <nav class="blue lighten-2 z-depth-0">
+            <div class="nav-wrapper">
+              <div class="col s12">
+                <a href="#!" class="breadcrumb">All employees</a>
+                <a href="#!" class="breadcrumb">Martyn Andriy</a>
+                <a href="#!" class="breadcrumb">Personal information</a>
+              </div>
+            </div>
+          </nav>
+
+          <div class="row">
+            <div class="col s12">
+              <ul class="tabs tabs-fixed-width blue lighten-3">
+                <li class="tab col s3"><a href="#summary" class="grey-text grey-text text-darken-2">Summary</a></li>
+                <li class="tab col s3"><a href="#personal-information" class="grey-text grey-text text-darken-2">Personal</a></li>
+                <li class="tab col s3"><a href="#skill-set" class="grey-text grey-text text-darken-2">Skill set</a></li>
+                <li class="tab col s3"><a href="#projects" class="grey-text grey-text text-darken-2">Projects</a></li>
+                <li class="tab col s3"><a href="#performance" class="grey-text grey-text text-darken-2">Performance</a></li>
+              </ul>
+            </div>
+
+            <div id="summary" class="col s12">
+              <div class="card-panel">
+                  <div class="row">
+                    <div class="col s12">
+                      <div class="chip">Busy for now</div>
+                      <div class="chip">Project "<b>Alabai Reviews</b>" (full-time, 8h)</div>
+                      <div class="chip">Project "<b>SA Sender</b>" (part-time, 1h)</div>
+                      <div class="chip"><b>22 days</b> vacation left</div>
+                      <div class="chip"><b>12 hours</b> overtime</div>
+                      <div class="chip red lighten-4"><b>minor tip:</b> remind to request vacation</div>
+                      <div class="chip red lighten-3"><b>major tip:</b> log time <i>(untracked 12 days)</i></div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col s6">
+                      <img width="300px" src="https://dl.dropboxusercontent.com/spa/3wo62sfm2mbj31o/iqrjzmse.png" />
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div id="personal-information" class="col s12">
+              <div class="card-panel">
+                <div class="row">
+                  <div class="input-field col s3">
+                    <input id="first_name" type="text" class="validate" value="Martyn">
+                    <label for="first_name">First Name</label>
+                  </div>
+
+                  <div class="input-field col s3">
+                    <input id="last_name" type="text" class="validate" value="Andriy">
+                    <label for="last_name">Last Name</label>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="input-field col s4">
+                    <input value="martyn.andriy@cursor.education" id="working_email" type="text" class="validate">
+                    <label for="working_email">Working Email</label>
+                  </div>
+
+                  <div class="input-field col s4">
+                    <input value="martyn90@gmail.com" id="personal_sky[e" type="text" class="validate">
+                    <label for="personal_sky[e">Personal Email</label>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="input-field col s2">
+                    <input value="098 888 28 28" id="working_phone" type="text" class="validate">
+                    <label for="working_phone">Working Phone</label>
+                  </div>
+
+                  <div class="input-field col s2">
+                    <input value="098 888 28 28" id="personal_phone" type="text" class="validate">
+                    <label for="personal_phone">Personal Phone</label>
+                  </div>
+
+                  <div class="input-field col s4">
+                    <input value="martyn.andriy" id="skype_phone" type="text" class="validate">
+                    <label for="skype_phone">Skype</label>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="input-field col s8">
+                    <input value="Lviv, st. Horodotska 152, 21a" id="address" type="text" class="validate">
+                    <label for="address">Address</label>
+                  </div>
+                </div>
+
+                <a class="waves-effect waves-light btn green">Save</a>
+
+              </div>
+            </div>
+
+            <div id="skill-set" class="col s12">
+              <div class="card">
+                <div class="card-content white-text">
+
+                  <p>
+                    <div class="chip"><img src="https://www.sololearn.com/Icons/Courses/1024.png"> JavaScript <i class="close material-icons">close</i></div>
+
+                    <div class="chip"><img src="https://thenewboston.com/images/forum/logos/145efe2aab7ca9959397d6344180b658.png"/> HTML5 <i class="close material-icons">close</i></div>
+
+                    <div class="chip"><img src="https://html5hive.org/wp-content/uploads/2014/03/css-beginners-tutorial.jpg?5e5685" /> CSS3 <i class="close material-icons">close</i></div>
+
+                    <div class="chip"><img src="https://raw.githubusercontent.com/jsx-ir/logo/master/jsx.png"/> JSX <i class="close material-icons">close</i></div>
+
+                    <div class="chip"><img src="https://facebook.github.io/react/img/logo.svg" /> React <i class="close material-icons">close</i></div>
+
+                    <div class="chip"><img src="http://tva4.sinaimg.cn/crop.0.0.768.768.180/3f9f9c81jw8es47yp3k0dj20lc0lcgmc.jpg" /> React Native <i class="close material-icons">close</i></div>
+
+                    <div class="chip"><img src="https://pbs.twimg.com/profile_images/527039622434418688/uJPMDhZq_400x400.png" /> Meteor <i class="close material-icons">close</i></div>
+
+                    <div class="chip"><img src="https://frontendmasters.com/assets/es6-logo.png" /> ES6 <i class="close material-icons">close</i></div>
+
+                    <div class="chip"><img src="http://blog.megafanapps.com/wp-content/uploads/2014/10/Facebook-1024x1024.png" /> Facebook API <i class="close material-icons">close</i></div>
+
+                    <div class="chip"><img src="https://image.winudf.com/119/96585ba3a67636/icon=150x.png" /> Node.js <i class="close material-icons">close</i></div>
+
+                    <div class="chip"><img src="http://ionicframework.com/img/ionic-logo-blog.png" /> Ionic <i class="close material-icons">close</i></div>
+
+                    <div class="chip"><img src="https://s.gravatar.com/avatar/17e414f1d3c2a1c190a1fe04d9850286?size=496&default=retro" /> TypeScript <i class="close material-icons">close</i></div>
+
+                    <div class="chip">AngularJS <i class="close material-icons">close</i></div>
+
+                    <div class="chip"><img src="https://angular.io/resources/images/logos/angular2/angular.svg" /> Angular2 <i class="close material-icons">close</i></div>
+
+                    <div class="chip">MongoDB <i class="close material-icons">close</i></div>
+                    <div class="chip">Flux <i class="close material-icons">close</i></div>
+                    <div class="chip">Redux <i class="close material-icons">close</i></div>
+                    <div class="chip">Jade <i class="close material-icons">close</i></div>
+                    <div class="chip">Pug <i class="close material-icons">close</i></div>
+                    <div class="chip">WebSockets <i class="close material-icons">close</i></div>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div id="projects" class="col s12">
+              <div class="card-panel">
+                <div class="chip">Alabai Reviews</div>
+                <div class="chip">SA Sender</div>
+              </div>
+            </div>
+
+            <div id="performance" class="col s12">
+              <div class="card-panel">
+                performance statistics here
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  </body>
+</html>
